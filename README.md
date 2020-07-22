@@ -1,8 +1,8 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/binbashar/terraform-aws-natgw-notifications/master/figures/binbash-logo.png" alt="binbash" width="250"/>
+    <img src="https://raw.githubusercontent.com/binbashar/terraform-aws-natgw-notifications/master/figures/binbash.png" alt="binbash" width="250"/>
 </div>
 <div align="right">
-  <img src="https://raw.githubusercontent.com/binbashar/terraform-aws-natgw-notifications/master/figures/binbash-leverage-terraform-logo.png"
+  <img src="https://raw.githubusercontent.com/binbashar/terraform-aws-natgw-notifications/master/figures/binbash-leverage-terraform.png"
   alt="leverage" width="130"/>
 </div>
 
@@ -44,16 +44,16 @@ module "natgw-notifications" {
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-# TODO
+## TODO
 * Add examples dir + associated terratests
 
 ---
 
-# Release Management
+## Release Management
 ### CircleCi PR auto-release job
 
 <div align="left">
-  <img src="https://raw.githubusercontent.com/binbashar/terraform-aws-natgw-notifications/master/figures/circleci-logo.png" alt="circleci" width="130"/>
+  <img src="https://raw.githubusercontent.com/binbashar/terraform-aws-natgw-notifications/master/figures/circleci.png" alt="circleci" width="130"/>
 </div>
 
 - [**pipeline-job**](https://circleci.com/gh/binbashar/terraform-aws-natgw-notifications) (**NOTE:** Will only run after merged PR)
