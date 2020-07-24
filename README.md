@@ -25,11 +25,12 @@ connections through the NAT gateway.
 
 ```hcl
 
-module "natgw-notifications" {
-  source  = "binbashar/natgw-notifications/aws"
-  version = "0.0.1"
+module "vpc-natgw-notifications" {
+  source = "github.com/binbashar/terraform-aws-natgw-notifications.git?ref=v0.0.1"
 
-  sns_topic_name = "slack-events"
+  alarm_suffix   = "${var.environment}-account"
+  send_sns       = true
+  sns_topic_name = data.terraform_remote_state.notifications.outputs.sns_topic_name_bb_monitoring
 }
 ```
 
