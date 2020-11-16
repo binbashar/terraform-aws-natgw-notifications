@@ -35,15 +35,31 @@ module "vpc-natgw-notifications" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| terraform | >= 0.12 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| alarm\_evaluation\_periods | The number of periods over which data is compared to the specified threshold. | number | `"1"` | no |
-| alarm\_period | The period in seconds over which the specified statistic is applied, eg 3600 sec = 60 mins. | number | `"3600"` | no |
-| alarm\_suffix | Suffix to add to alarm name, used for separating different AWS account. | string | `""` | no |
-| send\_sns | If true will send message *Successful AWS console login with the root account* to SNS topic. | bool | `"false"` | no |
-| sns\_topic\_name | The name of the SNS topic to send root login notifications. | string | n/a | yes |
+|------|-------------|------|---------|:--------:|
+| alarm\_evaluation\_periods | The number of periods over which data is compared to the specified threshold. | `number` | `1` | no |
+| alarm\_period | The period in seconds over which the specified statistic is applied, eg 3600 sec = 60 mins. | `number` | `3600` | no |
+| alarm\_suffix | Suffix to add to alarm name, used for separating different AWS account. | `string` | `""` | no |
+| send\_sns | If true will send message *Successful AWS console login with the root account* to SNS topic. | `bool` | `false` | no |
+| sns\_topic\_name | The name of the SNS topic to send root login notifications. | `string` | n/a | yes |
+
+## Outputs
+
+No output.
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
