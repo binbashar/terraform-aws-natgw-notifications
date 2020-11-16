@@ -7,6 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.9"></a>
+## [v0.0.9] - 2020-11-16
+
+- BBL-440 | adding pre-commit-config
+- BBL-440 | fixing README.md with pre-commit terraform-docs hook
+- BBL-440 | ci pre-commit + slack notif + makefiles lib
+
+
 <a name="v0.0.8"></a>
 ## [v0.0.8] - 2020-09-24
 
@@ -61,7 +69,8 @@ All notable changes to this project will be documented in this file.
 - BBL-209 initial commit
 
 
-[Unreleased]: https://github.com/binbashar/terraform-aws-natgw-notifications/compare/v0.0.8...HEAD
+[Unreleased]: https://github.com/binbashar/terraform-aws-natgw-notifications/compare/v0.0.9...HEAD
+[v0.0.9]: https://github.com/binbashar/terraform-aws-natgw-notifications/compare/v0.0.8...v0.0.9
 [v0.0.8]: https://github.com/binbashar/terraform-aws-natgw-notifications/compare/v0.0.7...v0.0.8
 [v0.0.7]: https://github.com/binbashar/terraform-aws-natgw-notifications/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/binbashar/terraform-aws-natgw-notifications/compare/v0.0.5...v0.0.6
